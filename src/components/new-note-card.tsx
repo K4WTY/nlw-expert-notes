@@ -36,7 +36,7 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
             return
         }
 
-        const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition
+        //const SpeechRecognitionAPI = window.SpeechRecognition || window.webkitSpeechRecognition
         speechRecognition = new SpeechRecognition()
 
         speechRecognition.lang = "pt-BR"
